@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    color: white;
+    background-color: darkgray;
+    font-size: 2em;
+    font-family: 'Alegreya', serif;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.image-container-items {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-item {
+    width: 560px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
